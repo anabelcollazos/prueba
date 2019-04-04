@@ -1,0 +1,54 @@
+.gimnasios {
+    display: flex;
+}
+
+.cuadro {
+    margin: 5px;
+    flex: auto;
+    background: rgba(#000, .07);
+    margin-bottom: 1.5em;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #000;
+    width: 50%;
+    height: auto;
+}
+
+.cuadro-img {
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    width: 100%;
+    height: 250px;
+}
+
+.cuadro-titulo {
+    margin: 0;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 2.5;
+    padding: 0 1.2em;
+    margin-top: 1em .5em 0;
+    color: #fff;
+    background: steelblue;
+    font-size: .8em;
+    opacity: 20;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button:active {
+    transform: scale(1.2)
+}
+
+#comas:checked ~ .gimnasios .los-olivos{
+    display: none;
+}
+
+#losOlivos:checked ~ .gimnasios .comas{
+    display: none;
+}
