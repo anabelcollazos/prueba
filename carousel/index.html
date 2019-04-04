@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Sistema Buscador</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="css/estilos.css" rel ="stylesheet">
+
+</head>
+<body>
+    <div class="logo-container" id="con1">
+        <div class="container">
+            <div class="texto">
+                <img  src="img/Logo.png" alt="" class="logo">
+                <p id="stilo">GYMS FINDER</p>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-static-top" id="con2">
+        <div class="container" >
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Botón</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.php" id="txtbarra">GYMS Finder</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" id="txtbarra">Realice su búsqueda</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"id="txtbarra">Conseguir cupón</a></li>
+                    <li><a href="RegistrarGyms.php"id="txtbarra">¿Tiene un gimnasio?</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-default navbar-static-top"id="con3">
+    <br>
+    <br>
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="col-lg-3 col-md-12">
+                <!-- llenar espacio -->
+                <div id="carouselIzquierda" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselIzquierda" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselIzquierda" data-slide-to="1"></li>
+                        <li data-target="#carouselIzquierda" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chica1.jpg" style="width:100%" id="imagen">
+                        </div>
+                        <div class="item">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chica2.jpg" style="width:100%" id="imagen">
+                        </div>
+                        <div class="item">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chica3.png" style="width:100%" id="imagen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <!--  -->
+            </div>
+
+            <div class="col-lg-3 col-md-12" id="Con1">
+                <!-- llenar espacio -->
+                <div id="carouselDerecha" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselDerecha" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselDerecha" data-slide-to="1"></li>
+                        <li data-target="#carouselDerecha" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chico1.jpeg" style="width:100%" id="imagen">
+                        </div>
+                        <div class="item">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chico2.jpg" style="width:100%" id="imagen">
+                        </div>
+                        <div class="item">
+                            <img class="img-izquierda img-fluid img-thumbnail" src="img/Modelos/chico3.jpg" style="width:100%" id="imagen">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+* {
+	/*margin: 0;*/
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+}
+/* #con1{background: url("../img/portada.jpg");} */
+#con1{background-color:white;}
+#con2{background-color:whitesmoke;}
+#con3{background-color:white;}
+
+
+.texto {
+    display: flex;
+	align-items: center;
+}
+
+#stilo {
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: bold;
+	color: #85D2DC;
+	font-size: 50px;
+}
+#txtbarra{
+	font-weight: bold;
+}
+
+.estilo{display: none;}
+
+.estilo1{display: none;}
+
+.grupo {
+	position: absolute;
+	width: 92%;
+}
+
+#imagen{
+	/*width: 500px;*/
+	height: 480px;
+	padding-top: 0;
+	/*border: none;*/
+	position: relative;
+	top: -15px;
+}
+
+
+.brandingTextCont p {
+	font-size: 0;
+}
